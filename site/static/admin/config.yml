@@ -34,3 +34,4 @@ collections:
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Gallery Image", name: "image", widget: "image"}
+      - {label: "links", name: "links", widget: "links", required: false}
